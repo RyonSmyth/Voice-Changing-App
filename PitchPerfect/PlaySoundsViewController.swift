@@ -60,6 +60,14 @@ class PlaySoundsViewController: UIViewController {
         print("PlaySoundsViewController loaded")
         setupAudio()
         // Do any additional setup after loading the view.
+        
+        snailButton.imageView?.contentMode = .ScaleAspectFit
+        chipmunkButton.imageView?.contentMode = .ScaleAspectFit
+        rabbitButton.imageView?.contentMode = .ScaleAspectFit
+        vaderButton.imageView?.contentMode = .ScaleAspectFit
+        echoButton.imageView?.contentMode = .ScaleAspectFit
+        reverbButton.imageView?.contentMode = .ScaleAspectFit
+        
     }
     
     override func viewWillAppear(animated: Bool) {
